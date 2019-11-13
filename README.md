@@ -21,7 +21,7 @@
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](http://liorn.sourceset.co.il/template-overviews/resume/)
 * Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* Clone the repo: `git clone https://github.com/LiorNagar2/liorn.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
 ## Usage

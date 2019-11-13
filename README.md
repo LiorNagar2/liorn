@@ -4,9 +4,9 @@
 
 ## Preview
 
-[![Resume Preview](http://liorn.sourceset.co.il/assets/img/screenshots/themes/resume.png)](https://blackrockdigital.github.io/startbootstrap-resume/)
+[![Resume Preview](http://liorn.sourceset.co.il/assets/img/screenshots/themes/resume.png)](http://liorn.sourceset.co.il)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+**[View Live Preview](http://liorn.sourceset.co.il)**
 
 ## Status
 

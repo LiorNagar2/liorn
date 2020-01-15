@@ -21,6 +21,8 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lfh8sMUAAAAAKPDJ5MxF3HwwKrg__HOcpLv6VMe"></script>
+
 </head>
 
 <body id="page-top">
@@ -53,8 +55,11 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            </li>-->
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
         </ul>
     </div>
@@ -174,7 +179,7 @@
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
                 <div class="resume-content">
-                    <h3 class="mb-0">Sela Collage</h3>
+                    <h3 class="mb-0">Sela College</h3>
                     <div class="subheading mb-3">Graphics and websites design</div>
                 </div>
                 <div class="resume-date text-md-right">
@@ -319,6 +324,84 @@
             </ul>
         </div>
     </section>-->
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+        <div class="w-100">
+            <h2 class="mb-5">Contact</h2>
+            <form id="contact-form" method="post" action="contact.php" class="needs-validation" novalidate="">
+
+                <div class="messages"></div>
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Name *</label>
+                                <input id="form_name" type="text" name="name" class="form-control"
+                                       placeholder="Please enter your name *" required="required"
+                                       data-error="Name is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone">Phone *</label>
+                                <input id="form_phone" type="tel" name="phone" class="form-control"
+                                       placeholder="Please enter your phone *" required="required"
+                                       data-error="Phone is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control"
+                                       placeholder="Please enter your email *" required="required"
+                                       data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_subject">Please specify your subject *</label>
+                                <input id="form_subject" type="text" name="subject" class="form-control"
+                                       placeholder="Please enter your subject *" required="required"
+                                       data-error="Subject is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control"
+                                          placeholder="Message for me *" rows="4" required="required"
+                                          data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-muted">
+                                <strong>*</strong> These fields are required.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
 
 </div>
 
